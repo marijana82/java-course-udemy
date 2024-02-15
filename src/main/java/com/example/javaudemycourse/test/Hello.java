@@ -37,7 +37,18 @@ public class Hello {
         }
 
 
-        //mini challenge
+        //mini challenge - comparing variable to a numeric value
+        int newValue = 50;
+        if (newValue == 50) {
+            System.out.println("This is true");
+        } else {
+            System.out.println("This is an error");
+        }
+
+
+        //mini challenge - comparing variable to a boolean
+
+
 
 
 
