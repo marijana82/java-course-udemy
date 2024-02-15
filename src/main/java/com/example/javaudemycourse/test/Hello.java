@@ -48,7 +48,7 @@ public class Hello {
 
         //mini challenge - comparing variable to a boolean
         boolean isCar = false;
-        if (isCar) {
+        if (!isCar) {
             System.out.println("This is not supposed to happen.");
         } else {
             System.out.println("Dunno.");
@@ -56,6 +56,22 @@ public class Hello {
 
 
         //ternary operator
+        String makeOfCar = "Volkswagen";
+        boolean isDomestic = makeOfCar == "Volkswagen" ? false : true;
+
+        if (isDomestic) {
+            System.out.println("This is domestic.");
+        }
+
+        //ternary operator example 2
+        int ageOfClient = 16;
+        String ageText = ageOfClient >= 18 ? "Over 18" : "Still a kid";
+        System.out.println("Our client is " + ageText);
+
+
+
+
+
 
 
 
