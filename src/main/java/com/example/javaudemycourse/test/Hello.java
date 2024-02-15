@@ -23,13 +23,22 @@ public class Hello {
         }
 
         //logical && (AND) operator
-        int secondTopScore = 60;
-        if (topScore > secondTopScore && topScore < 100) {
+        int secondTopScore = 95;
+        if ((topScore > secondTopScore) && (topScore < 100)) {
             System.out.println("Greater than second top score and less than 100.");
         }
 
 
         //logical OR operator
+        if ((topScore > 90) || (secondTopScore <= 90)) {
+            System.out.println("Either or both of the conditions are true");
+        } else {
+            System.out.println("Not true");
+        }
+
+
+        //mini challenge
+
 
 
 
