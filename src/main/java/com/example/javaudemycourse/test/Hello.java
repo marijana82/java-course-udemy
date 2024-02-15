@@ -65,10 +65,12 @@ public class Hello {
 
         //ternary operator example 2
         int ageOfClient = 16;
-        String ageText = ageOfClient >= 18 ? "Over 18" : "Still a kid";
+        String ageText = (ageOfClient >= 18) ? "Over 18" : "Still a kid";
         System.out.println("Our client is " + ageText);
 
 
+        String s = (isDomestic) ? "This car is domestic" : "This car is not domestic";
+        System.out.println(s);
 
 
 
@@ -81,5 +83,7 @@ public class Hello {
 
 
 
-    }
+
+
+   }
 }
