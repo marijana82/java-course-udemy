@@ -47,6 +47,17 @@ public class Hello {
 
 
         //mini challenge - comparing variable to a boolean
+        boolean isCar = false;
+        if (isCar) {
+            System.out.println("This is not supposed to happen.");
+        } else {
+            System.out.println("Dunno.");
+        }
+
+
+        //ternary operator
+
+
 
 
 
